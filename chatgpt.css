@@ -2,14 +2,24 @@
     color: #ffff33;
 }
 .btn-primary:is(.dark *) {
-    background-color: #00ffff;
-    color: #000000;
+    background: rgba(0, 255, 255, 0);
+    color: #00ffff;
     border-radius:0;
     font-size: 1rem;
+    border: 1px solid #00ffff;
+    filter: drop-shadow(0 0 30px #00ffff);
 }
 .btn-secondary{
-    background-color: #ff3cac;
-    color: #000000;
+    background: rgba(0, 255, 255, 0);
+    color: #fa73fa;
     border-radius:0;
     font-size: 1rem;
+    border: 1px solid #fa73fa;
+    filter: drop-shadow(0 0 30px #fa73fa);
+}
+.bg-token-message-surface {
+    filter: drop-shadow(0 0 80px #FF4C64);
+    background: rgba(255, 76, 100, 0.211);
+    border-radius:0;
+    border: 1px solid rgb(255,76,100);
 }
