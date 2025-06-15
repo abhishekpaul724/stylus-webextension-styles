@@ -1,0 +1,15 @@
+.text-pretty {
+    color: #ffff33;
+}
+.btn-primary:is(.dark *) {
+    background-color: #00ffff;
+    color: #000000;
+    border-radius:0;
+    font-size: 1rem;
+}
+.btn-secondary{
+    background-color: #ff3cac;
+    color: #000000;
+    border-radius:0;
+    font-size: 1rem;
+}
