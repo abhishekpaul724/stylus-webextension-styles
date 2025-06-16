@@ -1,0 +1,41 @@
+:root{
+    --neon-yellow: #ffff33;
+    --cyan: #00ffff;
+    --cyber-magenta: #fa73fa;
+    --pastel-scarlet: #FF4C64;
+}
+.ytSearchboxComponentInputBoxDark {
+    border: 1px solid var(--cyan);
+    background-color: rgba(0, 255, 255, 0.05);
+    color:var(--cyan);
+}
+.ytSearchboxComponentSearchButtonDark{
+    border: 1px solid var(--cyan);
+    background-color: rgba(0, 255, 255, 0.05);
+    color:var(--cyan);
+}
+.ytSearchboxComponentSearchButtonDark:hover{
+    border: 1px solid var(--cyan);
+    background-color: rgba(0, 255, 255, 0.05);
+    color:var(--cyan);
+}
+.ytSearchboxComponentInput{
+    font-family: monospace;
+}
+.ytChipShapeInactive{
+    font-family: monospace;
+    border: 1px solid var(--neon-yellow);
+    background-color: transparent;
+    color: var(--neon-yellow);
+    filter: drop-shadow(0 0 30px var(--neon-yellow));
+    border-radius: 0;
+}
+.ytChipShapeActive{
+    color: #0f0f0f;
+    background-color: yellow;
+    border-radius: 0;
+}
+ytd-mini-guide-entry-renderer[system-icons][is-active] .title.ytd-mini-guide-entry-renderer, ytd-mini-guide-entry-renderer[system-icons] .title.ytd-mini-guide-entry-renderer{
+    font-family: monospace;
+    font-size: 1.3rem;
+}
