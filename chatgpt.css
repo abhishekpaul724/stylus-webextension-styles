@@ -6,6 +6,7 @@
 }
 .text-pretty {
     color: var(--neon-yellow);
+    font-family: monospace;
 }
 .btn-primary:is(.dark *) {
     background: rgba(0, 255, 255, 0);
@@ -14,6 +15,7 @@
     font-size: 1rem;
     border: 1px solid var(--cyan);
     filter: drop-shadow(0 0 30px var(--cyan));
+    font-family: monospace;
 }
 .btn-secondary{
     background: rgba(0, 255, 255, 0);
@@ -22,6 +24,7 @@
     font-size: 1rem;
     border: 1px solid var(--cyber-magenta);
     filter: drop-shadow(0 0 30px var(--cyber-magenta));
+    font-family: monospace;
 }
 .bg-token-message-surface {
     filter: drop-shadow(0 0 80px var(--pastel-scarlet));
