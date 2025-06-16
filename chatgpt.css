@@ -57,3 +57,8 @@
 ._prosemirror-parent_kfgfu_2 p.placeholder{
     font-family: monospace;
 }
+.dark\:bg-\[\#FFFFFF29\]:is(.dark *) {
+    border: 1px solid var(--cyber-magenta);
+    color: var(--cyber-magenta);
+    font-family: monospace;
+}
