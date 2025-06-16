@@ -1,25 +1,31 @@
+:root{
+    --neon-yellow: #ffff33;
+    --cyan: #00ffff;
+    --cyber-magenta: #fa73fa;
+    --pastel-scarlet: #FF4C64;
+}
 .text-pretty {
-    color: #ffff33;
+    color: var(--neon-yellow);
 }
 .btn-primary:is(.dark *) {
     background: rgba(0, 255, 255, 0);
-    color: #00ffff;
+    color: var(--cyan);
     border-radius:0;
     font-size: 1rem;
-    border: 1px solid #00ffff;
-    filter: drop-shadow(0 0 30px #00ffff);
+    border: 1px solid var(--cyan);
+    filter: drop-shadow(0 0 30px var(--cyan));
 }
 .btn-secondary{
     background: rgba(0, 255, 255, 0);
-    color: #fa73fa;
+    color: var(--cyber-magenta);
     border-radius:0;
     font-size: 1rem;
-    border: 1px solid #fa73fa;
-    filter: drop-shadow(0 0 30px #fa73fa);
+    border: 1px solid var(--cyber-magenta);
+    filter: drop-shadow(0 0 30px var(--cyber-magenta));
 }
 .bg-token-message-surface {
-    filter: drop-shadow(0 0 80px #FF4C64);
+    filter: drop-shadow(0 0 80px var(--pastel-scarlet));
     background: rgba(255, 76, 100, 0.211);
     border-radius:0;
-    border: 1px solid rgb(255,76,100);
-}
+    border: 1px solid var(--pastel-scarlet);
+}   
