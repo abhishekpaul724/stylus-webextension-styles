@@ -48,12 +48,3 @@ ytd-app{
 #container.ytd-masthead{
     background-color: var(--bg-primary);
 }
-.title.ytd-guide-entry-renderer{
-    color: var(--cyber-readable-pink);
-    font-family: monospace;
-    filter: drop-shadow(0 0 25px #d50032);
-}
-tp-yt-paper-item.style-scope.ytd-guide-entry-renderer div {
-    color: var(--cyber-readable-pink);
-    filter: drop-shadow(0 0 20px #d50032);
-}
