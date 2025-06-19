@@ -3,6 +3,9 @@
     --cyan: #00ffff;
     --cyber-magenta: #fa73fa;
     --pastel-scarlet: #FF4C64;
+    --bg-primary: #0A0F1E;
+    --cyber-scarlet: #d50032;
+    --cyber-readable-pink: #ff69b4;
 }
 .ytSearchboxComponentInputBoxDark {
     border: 1px solid var(--cyan);
@@ -38,4 +41,19 @@
 ytd-mini-guide-entry-renderer[system-icons][is-active] .title.ytd-mini-guide-entry-renderer, ytd-mini-guide-entry-renderer[system-icons] .title.ytd-mini-guide-entry-renderer{
     font-family: monospace;
     font-size: 1.3rem;
+}
+ytd-app{
+    background-color: var(--bg-primary);
+}
+#container.ytd-masthead{
+    background-color: var(--bg-primary);
+}
+.title.ytd-guide-entry-renderer{
+    color: var(--cyber-readable-pink);
+    font-family: monospace;
+    filter: drop-shadow(0 0 25px #d50032);
+}
+tp-yt-paper-item.style-scope.ytd-guide-entry-renderer div {
+    color: var(--cyber-readable-pink);
+    filter: drop-shadow(0 0 20px #d50032);
 }
