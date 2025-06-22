@@ -57,3 +57,7 @@
 ._prosemirror-parent_kfgfu_2 p.placeholder{
     font-family: monospace;
 }
+.markdown::selection{
+    color: var(--cyan);
+    background-color: #000000;
+}
