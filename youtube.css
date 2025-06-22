@@ -42,9 +42,8 @@ ytd-mini-guide-entry-renderer[system-icons][is-active] .title.ytd-mini-guide-ent
     font-family: monospace;
     font-size: 1.3rem;
 }
-ytd-app{
-    background-color: var(--bg-primary);
-}
-#container.ytd-masthead{
-    background-color: var(--bg-primary);
+.ytSearchboxComponentInputBoxDark.ytSearchboxComponentInputBoxHasFocus{
+    border: 1px solid var(--cyan);
+    background-color: rgba(0, 255, 255, 0.05);
+    color:var(--cyan);
 }
