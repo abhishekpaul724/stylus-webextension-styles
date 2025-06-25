@@ -49,3 +49,9 @@ ytd-mini-guide-entry-renderer[system-icons][is-active] .title.ytd-mini-guide-ent
     background-color: rgba(0, 255, 255, 0.05);
     color:var(--cyan);
 }
+#chips.ytd-feed-filter-chip-bar-renderer{
+    background-color: #141414;
+}
+#container.ytd-masthead{
+    background-color: #141414;
+}
