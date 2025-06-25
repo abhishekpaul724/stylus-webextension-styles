@@ -11,11 +11,13 @@
     border: 1px solid var(--cyan);
     background-color: rgba(0, 255, 255, 0.05);
     color:var(--cyan);
+    border-radius: 0;
 }
 .ytSearchboxComponentSearchButtonDark{
     border: 1px solid var(--cyan);
     background-color: rgba(0, 255, 255, 0.05);
     color:var(--cyan);
+    border-radius: 0;
 }
 .ytSearchboxComponentSearchButtonDark:hover{
     border: 1px solid var(--cyan);
