@@ -54,3 +54,6 @@ ytd-mini-guide-entry-renderer[system-icons][is-active] .title.ytd-mini-guide-ent
 #container.ytd-masthead{
     background-color: #141414;
 }
+yt-icon.ytd-logo{
+    color: #ff00ff;
+}
