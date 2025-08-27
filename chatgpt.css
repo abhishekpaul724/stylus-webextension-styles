@@ -3,61 +3,42 @@
     --cyan: #00ffff;
     --cyber-magenta: #fa73fa;
     --pastel-scarlet: #FF4C64;
+    --neon-fuchsia: rgb(217,70,239);
+    --violet-crush: rgb(140,100,220);
+    --infrared-pink: rgb(255,32,121);
+    --hollywood-cerise:   #ff007b;
+    --electric-indigo:    #7e0eff;
+    --vivid-azure:        #008cff;
+    --ultra-pink:         #ff63ae;
+    --medium-orchid:      #b574ff;
+    --picton-blue:        #45abff;
 }
-.text-pretty {
-    color: var(--neon-yellow);
-    font-family: monospace;
-}
-.btn-primary:is(.dark *) {
-    background: rgba(0, 255, 255, 0);
-    color: var(--cyan);
-    border-radius:0;
-    font-size: 1rem;
-    border: 1px solid var(--cyan);
-    filter: drop-shadow(0 0 30px var(--cyan));
-    font-family: monospace;
-}
-.btn-secondary{
-    background: rgba(0, 255, 255, 0);
-    color: var(--cyber-magenta);
-    border-radius:0;
-    font-size: 1rem;
-    border: 1px solid var(--cyber-magenta);
-    filter: drop-shadow(0 0 30px var(--cyber-magenta));
-    font-family: monospace;
-}
-.bg-token-message-surface {
-    filter: drop-shadow(0 0 80px var(--pastel-scarlet));
-    background: rgba(255, 76, 100, 0.211);
-    border-radius:0;
-    border: 1px solid var(--pastel-scarlet);
-}   
-.bg-token-message-surface::selection {
-    color: var(--cyan);
-    background-color: #111;
-    text-shadow: 0 0 black;
-}
-.dark\:bg-white:is(.dark *) {
-    background-color: transparent;
-    border-radius: 0;
-    border: 1px solid var(--cyan);
-    filter: drop-shadow(0 0 30px var(--cyan));
-}
-.dark\:text-black:is(.dark *) {
-    color: var(--cyan);
+body, html {
+    background-color: #0f001a !important;
+    color: var(--hollywood-cerise) !important;
 }
 .dark{
-    --bg-primary: #0A0F1E;
+    --bg-primary: #0f001a !important;
+    --text-primary: #ffcaf0 !important;
 }
-.text-token-text-secondary {
-    font-family: monospace;
-    font-size: 0.85rem;
-    color: var(--neon-yellow);
+.light{
+    --bg-primary: #0f001a !important;
+    --text-primary: #ffcaf0 !important;
 }
-._prosemirror-parent_kfgfu_2 p.placeholder{
-    font-family: monospace;
+.overflow-auto, .overflow-scroll, .overflow-x-auto, .overflow-x-scroll, .overflow-y-auto, .overflow-y-scroll{
+    scrollbar-color: var(--hollywood-cerise) transparent !important;
 }
-.markdown::selection{
-    color: var(--cyan);
-    background-color: #000000;
+.btn-primary {
+    background-color: var(--electric-indigo);
+    color: #fff !important;
+    clip-path: polygon(25% 0%, 100% 0, 100% 50%, 75% 100%, 0 100%, 0% 50%) !important;
+    border-radius: 0 !important;
+}
+.btn-primary:hover {
+    border: 1px solid cyan !important;
+}
+.user-message-bubble-color {
+    border-radius: 0 !important;
+    border: 1px solid var(--electric-indigo) !important;
+    background: #7e0eff1a !important;
 }
