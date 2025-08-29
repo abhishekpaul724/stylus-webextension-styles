@@ -54,3 +54,8 @@ body, html {
     border: 1px solid #ff007b !important;
     background-color: #ff007b4a !important;
 }
+.btn-secondary{
+    border-radius: 0 !important;
+    border: 1px solid #ff007b !important;
+    background-color: #ff007b4a !important;
+}
