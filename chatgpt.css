@@ -63,5 +63,5 @@ body, html {
     filter: drop-shadow(0 0 10px #ff007b) !important;
 }
 .mb-4{
-    filter: drop-shadow(0 0 11px var(--hollywood-cerise));
+    filter: drop-shadow(0 0 13px var(--hollywood-cerise));
 }
