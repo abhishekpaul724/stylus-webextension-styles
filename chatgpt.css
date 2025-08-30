@@ -60,5 +60,8 @@ body, html {
     background-color: #ff007b4a !important;
 }
 .btn-secondary:hover{
-        filter: drop-shadow(0 0 10px #ff007b) !important;
+    filter: drop-shadow(0 0 10px #ff007b) !important;
+}
+.mb-4{
+    filter: drop-shadow(0 0 11px var(--hollywood-cerise));
 }
