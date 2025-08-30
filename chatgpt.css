@@ -62,6 +62,3 @@ body, html {
 .btn-secondary:hover{
     filter: drop-shadow(0 0 10px #ff007b) !important;
 }
-.mb-4{
-    filter: drop-shadow(0 0 13px var(--hollywood-cerise));
-}
