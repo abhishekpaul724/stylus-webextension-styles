@@ -9,7 +9,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Anta&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 body, html {
-    background-color: #0F0F0F !important;
+    background-color: #1e1e1e !important;
     color: white !important;
     font-family: 'Jetbrains Mono' !important;
 }
@@ -20,11 +20,11 @@ body, html {
     font-family: "EB Garamond" !important;
 }
 .dark{
-    --bg-primary: #0F0F0F !important;
+    --bg-primary: #1e1e1e !important;
     --text-primary: #E1E9E8 !important;
 }
 .light{
-    --bg-primary: #0F0F0F !important;
+    --bg-primary: #1e1e1e !important;
     --text-primary: #E1E9E8 !important;
 }
 .user-message-bubble-color {
