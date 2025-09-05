@@ -1,0 +1,51 @@
+/* ==UserStyle==
+@name           ?
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+@-moz-document domain("chatgpt.com") {
+    @import url('https://fonts.googleapis.com/css2?family=Anta&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+body, html {
+    background-color: #0F0F0F !important;
+    color: white !important;
+    font-family: 'Jetbrains Mono' !important;
+}
+.overflow-auto, .overflow-scroll, .overflow-x-auto, .overflow-x-scroll, .overflow-y-auto, .overflow-y-scroll{
+    scrollbar-color: #a35d15 transparent !important;
+}
+.mb-4{
+    font-family: "EB Garamond" !important;
+}
+.dark{
+    --bg-primary: #0F0F0F !important;
+    --text-primary: #E1E9E8 !important;
+}
+.light{
+    --bg-primary: #0F0F0F !important;
+    --text-primary: #E1E9E8 !important;
+}
+.user-message-bubble-color {
+    border-radius: 0 !important;
+    border: 1px solid #0a3d6b !important;
+    background: #0a3d6b4a !important;
+}
+.dark\:bg-\[\#303030\]:is(.dark *) {
+    border-radius: 0 !important;
+    border: 1px solid #76240E !important;
+    background-color: #76240E4a !important;
+}
+.btn-secondary{
+    border-radius: 0 !important;
+    border: 1px solid #436671 !important;
+    background-color: #4366719a !important;
+}
+.btn-primary {
+    background-color: #4366719a;
+    color: #fff !important;
+    border-radius: 0 !important;
+    border: 1px solid #436671 !important;
+}
+}
