@@ -14,7 +14,7 @@ body, html {
     font-family: 'Jetbrains Mono' !important;
 }
 .overflow-auto, .overflow-scroll, .overflow-x-auto, .overflow-x-scroll, .overflow-y-auto, .overflow-y-scroll{
-    scrollbar-color: #a35d15 transparent !important;
+    scrollbar-color: #47494B transparent !important;
 }
 .mb-4{
     font-family: "EB Garamond" !important;
