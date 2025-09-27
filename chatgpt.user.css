@@ -44,6 +44,14 @@
         clip-path: polygon(25% 0%, 100% 0, 100% 50%, 75% 100%, 0 100%, 0% 50%) !important;
         border-radius: 0 !important;
     }
+    .user-message-bubble-color,
+    .dark\:bg-\[\#303030\]:is(.dark *),
+    .light\:bg-\[\#303030\]:is(.light *),
+    .btn-secondary,
+    .btn-primary {
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+    }
     .btn-primary:hover {
         border: 1px solid cyan !important;
     }
